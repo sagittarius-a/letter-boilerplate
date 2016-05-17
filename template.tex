@@ -106,6 +106,7 @@ $endfor$
   $city$, $if(customdate)$\DTMusedate{customdate}$else$\today$endif$
 \end{flushright}
 
+
 \vspace{1em}
 
 $if(subject)$
@@ -114,7 +115,14 @@ $endif$
 
 \vspace{1em}
 
-$body$
+% Allow full justified text
+{
+    \justifying
+    {
+        $body$
+    }
+    \par
+}
 
 \begin{FlushRight}
   \IfFileExists{signature.pdf}
