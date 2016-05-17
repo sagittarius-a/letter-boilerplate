@@ -12,9 +12,12 @@ to:
 - 13597 Spandau
 
 # Settings
-mainfont: Hoefler Text
-altfont: Helvetica Neue
-monofont: Courier
+# mainfont: Hoefler Text
+# altfont: Helvetica Neue
+# monofont: Courier
+mainfont: Linux Libertine
+altfont: Linux Libertine
+monofont: DejaVuSansMono
 lang: english
 fontsize: 10pt
 geometry: a4paper, left=35mm, right=35mm, top=50mm, bottom=25mm
